@@ -20,7 +20,7 @@ import time
 from pony.orm import commit, db_session, left_join, select
 
 from amapTheorem import Point, in_box, in_polyline
-from util.models import City, District, Province, db
+from utils.models import City, District, Province, db
 
 
 class RegionSearch:

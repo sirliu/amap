@@ -29,7 +29,8 @@ pip install -r requirements.txt
 
 链接：https://pan.baidu.com/s/1zJZTccPjrY4RD_TgAUh84A 
 提取码：cmuv 
-
+注：正确的数据库结构如下图所示（字段名max_point和min_point原本是max和min，与代码不匹配，会报错）
+![](https://github.com/sirliu/amap/raw/master/docs/db_struct.png)
 **2. 数据库访问配置**
 
 文件地址：amap/utils/settings.py
